@@ -98,3 +98,7 @@
 .skills__names{
     width: 150px;
 }
+
+.skills__edit {
+  width: 70%;
+}
