@@ -124,3 +124,11 @@ body {
 .skills__names {
   width: 250px;
 }
+
+.skills__percentages{
+  color:#454141 ;
+}
+
+.ico{
+  color:rgb(41, 36, 36) ;
+}
