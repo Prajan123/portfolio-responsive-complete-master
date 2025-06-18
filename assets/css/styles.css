@@ -9,8 +9,8 @@
   /*Purple 260 - Red 355 - Blue 224 - Pink 340*/
   /* HSL color mode */
   --hue-color: 224;
-  --first-color: hsl(var(--hue-color), 89%, 60%);
-  --second-color: hsl(var(--hue-color), 56%, 12%);
+  --first-color: #00FFFF;
+  --second-color: #e0e0e0;
   /*===== Fuente y tipografia =====*/
   --body-font: 'Poppins', sans-serif;
   --big-font-size: 2rem;
@@ -52,8 +52,8 @@ body {
   font-family: var(--body-font);
   font-size: var(--normal-font-size);
   color: var(--second-color);
-  background: #7796f2;
-  background: linear-gradient(90deg, rgba(119, 150, 242, 1) 18%, rgba(54, 183, 200, 1) 36%, rgba(33, 215, 197, 1) 67%, rgba(0, 204, 255, 1) 84%);
+  background: #353a4f;
+  background: linear-gradient(106deg, rgba(53, 58, 79, 1) 1%, rgba(87, 87, 110, 1) 33%, rgba(168, 168, 168, 1) 57%, rgba(185, 185, 196, 1) 81%);
 }
 
 h1,
@@ -121,9 +121,8 @@ img {
   z-index: var(--z-fixed);
   background-color: #fff;
   box-shadow: 0 1px 4px rgba(146, 161, 176, 0.15);
-  background: #7796f2;
-  background: linear-gradient(90deg, rgba(119, 150, 242, 1) 18%, rgba(54, 183, 200, 1) 36%, rgba(33, 215, 197, 1) 67%, rgba(0, 204, 255, 1) 84%);
-
+  background: #353a4f;
+  background: linear-gradient(106deg, rgba(53, 58, 79, 1) 33%, rgba(87, 87, 110, 1) 69%, rgba(168, 168, 168, 1) 91%, rgba(185, 185, 196, 1) 97%);
 }
 
 /*===== NAV =====*/
@@ -133,8 +132,6 @@ img {
   justify-content: space-between;
   align-items: center;
   font-weight: var(--font-semi);
-  background: #7796f2;
-  background: linear-gradient(90deg, rgba(119, 150, 242, 1) 18%, rgba(54, 183, 200, 1) 36%, rgba(33, 215, 197, 1) 67%, rgba(0, 204, 255, 1) 84%);
 }
 
 @media screen and (max-width: 767px) {
@@ -313,13 +310,14 @@ img {
 .skills__icon {
   font-size: 2rem;
   margin-right: var(--mb-2);
-  color: var(--first-color);
+  color: rgb(41, 36, 36);
 
 }
 
 .skills__names {
   display: flex;
   align-items: center;
+  color: #454141;
 
 }
 
@@ -412,7 +410,7 @@ img {
 
 /* ===== FOOTER =====*/
 .footer {
-  background-color: var(--second-color);
+  background-color: #413f3f;
   color: #fff;
   text-align: center;
   font-weight: var(--font-semi);
