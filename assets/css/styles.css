@@ -367,6 +367,10 @@ img {
   width: 70%;
 }
 
+.skills__script{
+width: 26%;
+}
+
 /* ===== WORK =====*/
 .work__container {
   row-gap: 2rem;
