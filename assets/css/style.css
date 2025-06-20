@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
 
 body {
-  overflow: auto;
+  overflow: hidden;
  background: linear-gradient(135deg, rgba(242, 244, 236, 1) 13%, rgba(217, 223, 204, 1) 52%, rgba(167, 177, 148, 1) 86%);
 }
 
