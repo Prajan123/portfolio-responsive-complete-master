@@ -7,6 +7,7 @@
 
   <link rel="stylesheet" href="assets/css/styles.css" />
   <link rel="icon" href="assets/img/logo.png">
+  <link rel="stylesheet" href="assets/css/newstyle.css">
 
   <!-- =====BOX ICONS===== -->
   <link href="https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css" rel="stylesheet" />
@@ -14,16 +15,23 @@
 
   <title>codexstudioo</title>
 
-  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
-  </script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
   <script type="text/javascript">
     (function () {
       emailjs.init("vvuQ8GX6e_ok1DVR6");
     })();
   </script>
+  <script src="assets/js/new.js"></script>
 </head>
 
 <body style="background-color: rgb(255, 255, 255);">
+
+   <!-- Fullscreen Thank You Popup -->
+  <div class="thank-you-overlay" id="thankOverlay">
+    <h1>Thank You for Visiting CODEXSTUDIOO</h1>
+    <button onclick="enterWebsite()">Let's Go</button>
+  </div>
+
   <!--===== HEADER =====-->
   <header class="l-header">
     <nav class="nav bd-grid">
@@ -62,7 +70,6 @@
       </div>
     </nav>
   </header>
-
   <main class="l-main">
     <!--===== HOME =====-->
     <section class="home bd-grid" id="home">

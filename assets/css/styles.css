@@ -9,8 +9,8 @@
   /*Purple 260 - Red 355 - Blue 224 - Pink 340*/
   /* HSL color mode */
   --hue-color: 224;
-  --first-color: #00FFFF;
-  --second-color: #e0e0e0;
+  --first-color: #435739;
+  --second-color: #A7B194;
   /*===== Fuente y tipografia =====*/
   --body-font: 'Poppins', sans-serif;
   --big-font-size: 2rem;
@@ -52,8 +52,8 @@ body {
   font-family: var(--body-font);
   font-size: var(--normal-font-size);
   color: var(--second-color);
-  background: #353a4f;
-  background: linear-gradient(106deg, rgba(53, 58, 79, 1) 1%, rgba(87, 87, 110, 1) 33%, rgba(168, 168, 168, 1) 57%, rgba(185, 185, 196, 1) 81%);
+  background: #F2F4EC;
+  background: linear-gradient(135deg, rgba(242, 244, 236, 1) 13%, rgba(217, 223, 204, 1) 52%, rgba(167, 177, 148, 1) 86%);
 }
 
 h1,
@@ -121,8 +121,8 @@ img {
   z-index: var(--z-fixed);
   background-color: #fff;
   box-shadow: 0 1px 4px rgba(146, 161, 176, 0.15);
-  background: #353a4f;
-  background: linear-gradient(106deg, rgba(53, 58, 79, 1) 33%, rgba(87, 87, 110, 1) 69%, rgba(168, 168, 168, 1) 91%, rgba(185, 185, 196, 1) 97%);
+  background: #F2F4EC;
+  background: linear-gradient(160deg, rgba(242, 244, 236, 1) 13%, rgba(217, 223, 204, 1) 52%, rgba(167, 177, 148, 1) 86%);
 }
 
 /*===== NAV =====*/
@@ -367,8 +367,8 @@ img {
   width: 70%;
 }
 
-.skills__script{
-width: 26%;
+.skills__script {
+  width: 26%;
 }
 
 /* ===== WORK =====*/
@@ -595,3 +595,4 @@ width: 26%;
     width: 450px;
   }
 }
+
